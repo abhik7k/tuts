@@ -72,7 +72,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
+          <version>3.8.0</version>  
         </plugin>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -80,8 +80,8 @@
             <version>2.22.1</version> <!-- Use the latest version -->
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>C:\Users\abhinav\tuts\src\test\testng.xml</suiteXmlFile>
-                </suiteXmlFiles>
+                    <suiteXmlFile>src/test/testng.xml</suiteXmlFile>
+                </suiteXmlFiles>  
             </configuration>
         </plugin>
         <plugin>
