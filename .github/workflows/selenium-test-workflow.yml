@@ -17,9 +17,15 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v4
       with:
-        java-version: '17'
+        java-version: '21'
         distribution: 'temurin'
         cache: maven
+        
+    - name: Verify Java version
+      run: |
+        java -version
+        javac -version
+        echo "JAVA_HOME=$JAVA_HOME"
         
     - name: Install Chrome
       run: |
