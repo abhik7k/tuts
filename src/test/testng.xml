@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MySuite">
+<!-- <listeners>
+    <listener class-name = "com.example.Listeners"/>
+</listeners> -->
+<test thread-count="5" name="FrameTest">
+        <classes>
+            <class name="com.example.NestedFrames"/>
+        </classes>
+    </test>
+</suite> 

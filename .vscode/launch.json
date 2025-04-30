@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "com.example.Demo",
+            "projectName": "tuts"
+        },
+        {
+            "type": "java",
+            "name": "dataDriven",
+            "request": "launch",
+            "mainClass": "com.example.dataDriven",
+            "projectName": "tuts"
+        },
+        {
+            "type": "java",
+            "name": "windowHandles",
+            "request": "launch",
+            "mainClass": "com.example.windowHandles",
+            "projectName": "tuts"
+        },
+        {
+            "type": "java",
+            "name": "Run TestNG Tests",
+            "request": "launch",
+            "mainClass": "TestRunner",
+            "projectName": "tuts"
+        }
+    ]
+}

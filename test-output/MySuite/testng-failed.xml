@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]">
+  <listeners>
+    <listener class-name="com.example.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ErrorValidationTest(failed)">
+    <classes>
+      <class name="com.example.ErrorValidations">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="loginErrorValidation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.ErrorValidations -->
+    </classes>
+  </test> <!-- ErrorValidationTest(failed) -->
+  <test thread-count="5" name="AppTest(failed)">
+    <classes>
+      <class name="com.example.AppTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="SubmitOrder" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.AppTest -->
+    </classes>
+  </test> <!-- AppTest(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
