@@ -17,7 +17,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v4
       with:
-        java-version: '17'  # Specify the Java version you need
+        java-version: '21'  # Specify the Java version you need
         distribution: 'temurin'
         cache: maven
         
